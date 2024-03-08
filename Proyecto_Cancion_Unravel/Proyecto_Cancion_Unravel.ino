@@ -83,6 +83,311 @@ void setColor(int red, int green, int blue) {
   analogWrite(PinB, blue);
 }
 
+/**
+ * ledRojo
+ * 
+ * Utilizando la funcion setColor
+ * pone el led rgb en rojo.
+ * 
+ */
+void ledRojo() {
+  setColor(255, 0, 0);
+}
+
+/**
+ * ledVerde
+ * 
+ * Utilizando la funcion setColor
+ * pone el led rgb en verde.
+ * 
+ */
+void ledVerde() {
+  setColor(0, 255, 0);
+}
+
+/**
+ * ledAzul
+ * 
+ * Utilizando la funcion setColor
+ * pone el led rgb en azul.
+ * 
+ */
+void ledAzul() {
+  setColor(0, 0, 255);
+}
+
+/**
+ * cancion
+ * 
+ * Utilizando la funcion nota
+ * hace sonar la cancion.
+ * 
+ */
+void cancion() {
+  // Parte 1
+
+  nota(LaS, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(Sol, BLANCA);
+  nota(Do, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+
+  // Parte 2
+
+  nota(Sol, BLANCA);
+  nota(Sol, NEGRA);
+  nota(Fa, BLANCA);
+  nota(ReS, NEGRA);
+  nota(ReS, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re, BLANCA);
+
+  // Parte 3
+
+  nota(Re, NEGRA);
+  nota(Re, BLANCA);
+  nota(Re, NEGRA);
+  nota(Re, BLANCA);
+  nota(Re2, NEGRA);
+  nota(Re2, BLANCA);
+  nota(LaS, NEGRA);
+  nota(La, BLANCA);
+  nota(La, NEGRA);
+  nota(La, BLANCA);
+  nota(LaS, NEGRA);
+  nota(LaS, BLANCA);
+
+  // Parte 4
+
+  nota(LaS, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(Sol, BLANCA);
+  nota(Do, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+
+  // Parte 5
+
+  nota(Sol, BLANCA);
+  nota(Sol, NEGRA);
+  nota(Fa, BLANCA);
+  nota(ReS, NEGRA);
+  nota(ReS, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re, BLANCA);
+
+  // Parte 6
+
+  nota(Re, NEGRA);
+  nota(Re, BLANCA);
+  nota(Re, NEGRA);
+  nota(Re, BLANCA);
+  nota(Re2, NEGRA);
+  nota(Re2, BLANCA);
+  nota(LaS, NEGRA);
+  nota(La, BLANCA);
+  nota(La, NEGRA);
+  nota(La, BLANCA);
+  nota(LaS, NEGRA);
+  nota(LaS, BLANCA);
+
+  // Parte 7
+
+  nota(La, NEGRA);
+  nota(LaS, NEGRA);
+  nota(LaS, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(Re2, NEGRA);
+  nota(Re2, NEGRA);
+  nota(Do, NEGRA);
+  nota(Do, BLANCA);
+  nota(LaS, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re, BLANCA);
+
+  // Parte 8
+
+  nota(La, NEGRA);
+  nota(LaS, NEGRA);
+  nota(LaS, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(Re2, NEGRA);
+  nota(Re2, NEGRA);
+  nota(Do, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, BLANCA);
+  nota(Re2, NEGRA);
+  nota(Do, NEGRA);
+  nota(Do, BLANCA);
+  nota(La, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, NEGRA);
+  nota(Re, NEGRA);
+  nota(Do, BLANCA);
+
+  // Parte 9
+
+  nota(Fa, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Re, NEGRA);
+  nota(Do, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Fa, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Re, NEGRA);
+  nota(Do, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+
+  // Parte 10
+
+  nota(Fa, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Re, NEGRA);
+  nota(Do, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Fa, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Re, NEGRA);
+  nota(Do, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Fa, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Re, NEGRA);
+  nota(Do, NEGRA);
+  nota(Re, NEGRA);
+  noTone(PinBuzzer);
+  delay(NEGRA);
+  nota(Re, BLANCA);
+
+  // Parte 11
+
+  nota(Re2, NEGRA);
+  nota(Re2, NEGRA);
+  nota(Do, BLANCA);
+  nota(Re2, NEGRA);
+  nota(Do, BLANCA);
+  nota(Do, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(Fa, BLANCA);
+
+  // Parte 12
+
+  nota(Re, NEGRA);
+  nota(Re, NEGRA);
+  nota(Do, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(LaS, NEGRA);
+  nota(Fa, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(Sol, NEGRA);
+  nota(Fa, NEGRA);
+  nota(LaS, NEGRA);
+  nota(Re2, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(LaS, BLANCA);
+  nota(La, NEGRA);
+  nota(Sol, NEGRA);
+  nota(La, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(Fa, BLANCA);
+  nota(LaS, NEGRA);
+  nota(Re2, NEGRA);
+  nota(Do, BLANCA);
+  nota(Do, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(Fa, BLANCA);
+
+  // Parte 13
+
+  nota(LaS, NEGRA);
+  nota(Re2, NEGRA);
+  nota(Do, NEGRA);
+  nota(Do, BLANCA);
+  nota(Do, NEGRA);
+  nota(Do, NEGRA);
+  nota(LaS, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(La, NEGRA);
+  nota(LaS, NEGRA);
+  nota(Fa, NEGRA);
+  nota(LaS, BLANCA);
+
+  // Parte 14
+
+  nota(LaS, NEGRA);
+  nota(Sol, NEGRA);
+  nota(Fa, NEGRA);
+  nota(Re2, NEGRA);
+  nota(LaS, BLANCA);
+  nota(LaS, NEGRA);
+  nota(LaS, BLANCA);
+  nota(La, NEGRA);
+  nota(Sol, NEGRA);
+  nota(La, NEGRA);
+  nota(LaS, BLANCA);
+}
+
 void setup() {
 
   Serial.begin(9600);
@@ -100,279 +405,17 @@ void loop() {
 
   if (estadoBoton == HIGH) {
 
-    setColor(0, 255, 0);
+    ledVerde();
     delay(TIEMPO);
-    setColor(0, 0, 255);
+    ledAzul();
 
     // Comienza la cancion
-
-    // Parte 1
-
-    nota(LaS, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(Sol, BLANCA);
-    nota(Do, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-
-    // Parte 2
-
-    nota(Sol, BLANCA);
-    nota(Sol, NEGRA);
-    nota(Fa, BLANCA);
-    nota(ReS, NEGRA);
-    nota(ReS, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re, BLANCA);
-
-    // Parte 3
-
-    nota(Re, NEGRA);
-    nota(Re, BLANCA);
-    nota(Re, NEGRA);
-    nota(Re, BLANCA);
-    nota(Re2, NEGRA);
-    nota(Re2, BLANCA);
-    nota(LaS, NEGRA);
-    nota(La, BLANCA);
-    nota(La, NEGRA);
-    nota(La, BLANCA);
-    nota(LaS, NEGRA);
-    nota(LaS, BLANCA);
-
-    // Parte 4
-
-    nota(LaS, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(Sol, BLANCA);
-    nota(Do, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-
-    // Parte 5
-
-    nota(Sol, BLANCA);
-    nota(Sol, NEGRA);
-    nota(Fa, BLANCA);
-    nota(ReS, NEGRA);
-    nota(ReS, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re, BLANCA);
-
-    // Parte 6
-
-    nota(Re, NEGRA);
-    nota(Re, BLANCA);
-    nota(Re, NEGRA);
-    nota(Re, BLANCA);
-    nota(Re2, NEGRA);
-    nota(Re2, BLANCA);
-    nota(LaS, NEGRA);
-    nota(La, BLANCA);
-    nota(La, NEGRA);
-    nota(La, BLANCA);
-    nota(LaS, NEGRA);
-    nota(LaS, BLANCA);
-
-    // Parte 7
-
-    nota(La, NEGRA);
-    nota(LaS, NEGRA);
-    nota(LaS, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(Re2, NEGRA);
-    nota(Re2, NEGRA);
-    nota(Do, NEGRA);
-    nota(Do, BLANCA);
-    nota(LaS, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re, BLANCA);
-
-    // Parte 8
-
-    nota(La, NEGRA);
-    nota(LaS, NEGRA);
-    nota(LaS, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(Re2, NEGRA);
-    nota(Re2, NEGRA);
-    nota(Do, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, BLANCA);
-    nota(Re2, NEGRA);
-    nota(Do, NEGRA);
-    nota(Do, BLANCA);
-    nota(La, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, NEGRA);
-    nota(Re, NEGRA);
-    nota(Do, BLANCA);
-
-    // Parte 9
-
-    nota(Fa, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Re, NEGRA);
-    nota(Do, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Fa, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Re, NEGRA);
-    nota(Do, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-
-    // Parte 10
-
-    nota(Fa, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Re, NEGRA);
-    nota(Do, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Fa, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Re, NEGRA);
-    nota(Do, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Fa, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Re, NEGRA);
-    nota(Do, NEGRA);
-    nota(Re, NEGRA);
-    noTone(PinBuzzer);
-    delay(NEGRA);
-    nota(Re, BLANCA);
-
-    // Parte 11
-
-    nota(Re2, NEGRA);
-    nota(Re2, NEGRA);
-    nota(Do, BLANCA);
-    nota(Re2, NEGRA);
-    nota(Do, BLANCA);
-    nota(Do, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(Fa, BLANCA);
-
-    // Parte 12
-
-    nota(Re, NEGRA);
-    nota(Re, NEGRA);
-    nota(Do, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(LaS, NEGRA);
-    nota(Fa, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(Sol, NEGRA);
-    nota(Fa, NEGRA);
-    nota(LaS, NEGRA);
-    nota(Re2, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(LaS, BLANCA);
-    nota(La, NEGRA);
-    nota(Sol, NEGRA);
-    nota(La, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(Fa, BLANCA);
-    nota(LaS, NEGRA);
-    nota(Re2, NEGRA);
-    nota(Do, BLANCA);
-    nota(Do, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(Fa, BLANCA);
-
-    // Parte 13
-
-    nota(LaS, NEGRA);
-    nota(Re2, NEGRA);
-    nota(Do, NEGRA);
-    nota(Do, BLANCA);
-    nota(Do, NEGRA);
-    nota(Do, NEGRA);
-    nota(LaS, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(La, NEGRA);
-    nota(LaS, NEGRA);
-    nota(Fa, NEGRA);
-    nota(LaS, BLANCA);
-
-    // Parte 14
-
-    nota(LaS, NEGRA);
-    nota(Sol, NEGRA);
-    nota(Fa, NEGRA);
-    nota(Re2, NEGRA);
-    nota(LaS, BLANCA);
-    nota(LaS, NEGRA);
-    nota(LaS, BLANCA);
-    nota(La, NEGRA);
-    nota(Sol, NEGRA);
-    nota(La, NEGRA);
-    nota(LaS, BLANCA);
+    cancion();
 
     // Termina la cancion
     delay(TIEMPO);
 
   } else {
-    setColor(255, 0, 0);
+    ledRojo();
   }
 }
