@@ -6,7 +6,13 @@
 
 **Musico: Jesús Bermejo Rosado**
 
+**Version 1.0**
+
 03-06/03/2022
+
+**Version 2.0**
+
+Marzo 2024
 
 <hr>
 
@@ -43,23 +49,23 @@ Modelo de Arduino: Arduino UNO
 
 <!-- Variables para los tonos -->
 ```c
-float Do = 523.25; 
-float DoS = 554.37; 
-float Re = 587.33;
-float ReS = 622.25; 
-float Mi = 659.26;  
-float Fa = 698.46; 
-float FaS = 739.99;
-float Sol = 783.99;
-float SolS = 830.61; 
-float La = 880;
-float LaS = 932.33;
-float Si = 493; 
-float Re2 = 1174.66;
-float FaS2 = 1479.98;
+const float Do = 523.25;
+const float DoS = 554.37;
+const float Re = 587.33;
+const float ReS = 622.25;
+const float Mi = 659.26;
+const float Fa = 698.46;
+const float FaS = 739.99;
+const float Sol = 783.99;
+const float SolS = 830.61;
+const float La = 880;
+const float LaS = 932.33;
+const float Si = 493;
+const float Re2 = 1174.66;
+const float FaS2 = 1479.98;
 
-int Negra = 250; 
-int Blanca = 500;
+const int NEGRA = 250;
+const int BLANCA = 500;
 
 ```
 
