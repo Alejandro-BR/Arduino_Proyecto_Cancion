@@ -27,7 +27,7 @@ Marzo 2024
 <hr>
 <br>
 
-![](Documentacion/Documentacion%20%20del%20proyecto%20en%20Tinkercad/Zumbador%20con%20led%20RGB%20y%20pulsador.png)
+![](Documentacion/Diseño.png)
 
 <br>
 <hr>
@@ -69,3 +69,6 @@ const int BLANCA = 500;
 
 ```
 
+**Esquema**
+
+![](Documentacion/Circuito.png)

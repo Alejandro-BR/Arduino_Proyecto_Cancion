@@ -1,19 +1,22 @@
-/********** ********** ********** ********** ********** ********** **********
- * Programacion y moontaje: Alejandro Barrionuevo Rosado 
- * Musico: Jesus Bermejo Rosado
- * Fecha: 03-04-05-06/03/2022
- ********** ********** ********** ********** ********** ********** **********
- * Cacion:  Unravel
+/**
+ *
+ * Proyecto Cancion
+ *
+ * Cancion:  Unravel
  * Artistas: TK from Ling tosite Sigure
  * Album:   Fantastic Magic
  * Opening 1 de Tokyo Ghoul
  * https://www.youtube.com/watch?v=7aMOurgDB-o&ab_channel=Funimation
  *
  ********** ********** ********** ********** ********** ********** **********
- * Version 2.0 
+ * Version 1.0
+ * Fecha: 03-04-05-06/03/2022
+ *
+ * Version 2.0 - Actual
  * Fecha: Marzo 2024
+ *
  * @author Alejandro Barrionuevo Rosado
- ********** ********** ********** ********** ********** ********** **********/
+ */
 
 const int PinBuzzer = 6;  // Pin digital PWM
 const int PinBoton = 2;   // Pin digital
@@ -412,7 +415,6 @@ void loop() {
     // Comienza la cancion
     cancion();
 
-    // Termina la cancion
     delay(TIEMPO);
 
   } else {
