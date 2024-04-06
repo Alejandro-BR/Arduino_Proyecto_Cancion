@@ -4,7 +4,6 @@
  *
  * Cancion: Melodía principal de Star Wars (versión simplificada)
  * Autor: John Towner Williamsl
- * https://www.youtube.com/watch?v=nXnW8QEeGDo&ab_channel=bsocine
  *
  ********** ********** ********** ********** ********** ********** **********
  * Version 1.0
@@ -129,49 +128,30 @@ void ledAzul() {
  */
 void cancion() {
 
-  // Primera sección
-  nota(Mi, NEGRA);
-  nota(Mi, NEGRA);
-  nota(Mi, NEGRA);
-  nota(DoS, NEGRA);
-  nota(Si, NEGRA);
-  nota(Si, NEGRA);
-  nota(Mi2, BLANCA);
-  
-  // Segunda sección
-  nota(Re, NEGRA);
-  nota(Re, NEGRA);
-  nota(DoS, NEGRA);
-  nota(Si, NEGRA);
-  nota(Si, NEGRA);
-  nota(Mi2, BLANCA);
-  
-  // Tercera sección
-  nota(Re, NEGRA);
-  nota(DoS, NEGRA);
-  nota(Si, NEGRA);
-  nota(Si, NEGRA);
-  nota(DoS, BLANCA);
-  
-  // Cuarta sección
-  nota(La, NEGRA);
-  nota(La, NEGRA);
-  nota(La, NEGRA);
-  nota(La, NEGRA);
-  nota(Sol, NEGRA);
-  nota(Fa, NEGRA);
-  nota(Mi, NEGRA);
-  nota(Re, NEGRA);
-  
-  // Quinta sección
-  nota(DoS, NEGRA);
-  nota(Si, NEGRA);
-  nota(Si, NEGRA);
-  nota(LaS, NEGRA);
-  nota(Si, NEGRA);
-  nota(Si, NEGRA);
-  nota(DoS2, NEGRA);
-  nota(LaS, NEGRA);
+  for (int i = 0; i < 2; i++) {
+    nota(Re, BLANCA);
+    nota(Re, BLANCA);
+    nota(Re, BLANCA);
+    nota(Sol, BLANCA);
+    nota(Re, NEGRA);
+
+    nota(Do, NEGRA);
+    nota(Si, BLANCA);
+    nota(La, BLANCA);
+    nota(Sol, NEGRA);
+    nota(Re, NEGRA);
+
+    nota(Do, NEGRA);
+    nota(Si, BLANCA);
+    nota(La, BLANCA);
+    nota(Sol, NEGRA);
+    nota(Re, NEGRA);
+
+    nota(Do, NEGRA);
+    nota(Si, BLANCA);
+    nota(Do, NEGRA);
+    nota(La, BLANCA);
+  }
 }
 
 void setup() {
