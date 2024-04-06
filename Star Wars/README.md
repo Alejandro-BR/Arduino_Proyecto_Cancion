@@ -1,37 +1,24 @@
 # Arduino_Proyecto_Cancion
 
-<br>
+<h3>Proyecto_Cancion_Star_Wars</h3>
 
-**Alejandro Barrionuevo Rosado**
+**Programacion y montaje: Alejandro Barrionuevo Rosado** 
 
-<h3>Canciones:</h3>
+**Version 1.0**
 
-- **Unravel**
+06/04/2024
 
-- **Melodía principal de Star Wars**
-
-<br>
-<hr>
-<br>
-
-
-![](Documentacion/Diseño.png)
-
-<br>
 <hr>
 
-**Materiales:**
+**Cancion: Melodía principal de Star Wars**
 
-- Microcontrolador Arduino
-- Buzzer pasivo
-- Pulsador
-- Diodo Led RGB
-- Resistencia 10Kohm
-- Resistencia 220ohm
-- Resistencia 220ohm
-- Resistencia 220ohm
+- Autor: John Towner Williamsl
+- Versión simplificada
 
-Modelo de Arduino: Arduino UNO
+[Video de YouTube](https://www.youtube.com/watch?v=nXnW8QEeGDo&ab_channel=bsocine )
+
+<hr>
+<br>
 
 **Variables para los tonos:**
 
@@ -48,15 +35,17 @@ const float Sol = 783.99;
 const float SolS = 830.61;
 const float La = 880;
 const float LaS = 932.33;
-const float Si = 493;
+const float Si = 987.77;
+const float Do2 = 1046.50;
+const float DoS2 = 1108.73;
 const float Re2 = 1174.66;
+const float ReS2 = 1244.51;
+const float Mi2 = 1318.51;
+const float Fa2 = 1396.91;
 const float FaS2 = 1479.98;
+
 
 const int NEGRA = 250;
 const int BLANCA = 500;
 
 ```
-
-**Esquema**
-
-![](Documentacion/Circuito.png)

@@ -1,37 +1,32 @@
 # Arduino_Proyecto_Cancion
 
-<br>
+<h3>Proyecto_Cancion_Unravel</h3>
 
-**Alejandro Barrionuevo Rosado**
+**Programacion y montaje: Alejandro Barrionuevo Rosado** 
 
-<h3>Canciones:</h3>
+**Musico: Jesús Bermejo Rosado**
 
-- **Unravel**
+**Version 1.0**
 
-- **Melodía principal de Star Wars**
+03-06/03/2022
 
-<br>
+**Version 2.0**
+
+Marzo 2024
+
+<hr>
+
+**Cancion: Unravel**
+
+- Artista: TK from Ling tosite Sigure
+-  Album:   Fantastic Magic
+-  Opening 1 de Tokyo Ghoul
+
+[Video de YouTube](https://www.youtube.com/watch?v=7aMOurgDB-o&ab_channel=Funimation )
+
 <hr>
 <br>
 
-
-![](Documentacion/Diseño.png)
-
-<br>
-<hr>
-
-**Materiales:**
-
-- Microcontrolador Arduino
-- Buzzer pasivo
-- Pulsador
-- Diodo Led RGB
-- Resistencia 10Kohm
-- Resistencia 220ohm
-- Resistencia 220ohm
-- Resistencia 220ohm
-
-Modelo de Arduino: Arduino UNO
 
 **Variables para los tonos:**
 
@@ -57,6 +52,3 @@ const int BLANCA = 500;
 
 ```
 
-**Esquema**
-
-![](Documentacion/Circuito.png)
