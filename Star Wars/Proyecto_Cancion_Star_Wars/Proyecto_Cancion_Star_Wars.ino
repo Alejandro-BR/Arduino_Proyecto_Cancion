@@ -2,8 +2,8 @@
  *
  * Proyecto Cancion
  *
- * Cancion: Melodía principal de Star Wars (versión simplificada)
- * Autor: John Towner Williamsl
+ * Cancion: Marcha imperiar de Star Wars (versión simplificada)
+ * Autor: John Williams
  *
  ********** ********** ********** ********** ********** ********** **********
  * Version 1.0
@@ -21,26 +21,24 @@ const int PinB = 11;      // Pin digital PWM
 const int TIEMPO = 1500;
 int estadoBoton;
 
-const float Do = 523.25;
-const float DoS = 554.37;
-const float Re = 587.33;
-const float ReS = 622.25;
-const float Mi = 659.26;
-const float Fa = 698.46;
-const float FaS = 739.99;
-const float Sol = 783.99;
-const float SolS = 830.61;
-const float La = 880;
-const float LaS = 932.33;
-const float Si = 987.77;
-const float Do2 = 1046.50;
-const float DoS2 = 1108.73;
-const float Re2 = 1174.66;
-const float ReS2 = 1244.51;
-const float Mi2 = 1318.51;
-const float Fa2 = 1396.91;
-const float FaS2 = 1479.98;
-
+const float Do2 = 261.63;   
+const float Re2 = 293.66;  
+const float Mi2 = 329.63;    
+const float Fa2 = 349.23;  
+const float Sol2 = 392.00; 
+const float SolS2 = 415.30; 
+const float La2 = 440.00;    
+const float Si2 = 466.16;    
+const float Do3 = 523.25;   
+const float DoS3 = 554.37;   
+const float Re3 = 587.33;    
+const float ReS3 = 622.25;   
+const float Mi3 = 659.26;   
+const float Fa3 = 698.46;    
+const float FaS3 = 739.99;   
+const float Sol3 = 783.99;  
+const float SolS3 = 830.61;  
+const float La3 = 880.00;   
 
 const int NEGRA = 250;
 const int BLANCA = 500;
@@ -127,31 +125,53 @@ void ledAzul() {
  * 
  */
 void cancion() {
+  // Primera sección
+  nota(La2, 500);
+  nota(La2, 500);
+  nota(La2, 500);
+  nota(Fa2, 350);
+  nota(Do3, 150);
+  nota(La2, 500);
+  nota(Fa2, 350);
+  nota(Do3, 150);
+  nota(La2, 650);
 
-  for (int i = 0; i < 2; i++) {
-    nota(Re, BLANCA);
-    nota(Re, BLANCA);
-    nota(Re, BLANCA);
-    nota(Sol, BLANCA);
-    nota(Re, NEGRA);
+  delay(500);
 
-    nota(Do, NEGRA);
-    nota(Si, BLANCA);
-    nota(La, BLANCA);
-    nota(Sol, NEGRA);
-    nota(Re, NEGRA);
+  nota(Mi3, 500);
+  nota(Mi3, 500);
+  nota(Mi3, 500);
+  nota(Fa3, 350);
+  nota(Do3, 150);
+  nota(SolS3, 500);
+  nota(Fa2, 350);
+  nota(Do3, 150);
+  nota(La2, 650);
 
-    nota(Do, NEGRA);
-    nota(Si, BLANCA);
-    nota(La, BLANCA);
-    nota(Sol, NEGRA);
-    nota(Re, NEGRA);
+  delay(500);
 
-    nota(Do, NEGRA);
-    nota(Si, BLANCA);
-    nota(Do, NEGRA);
-    nota(La, BLANCA);
-  }
+  // Segunda sección
+  nota(La3, 500);
+  nota(La2, 300);
+  nota(La2, 150);
+  nota(La3, 500);
+  nota(SolS3, 325);
+  nota(Sol3, 175);
+  nota(FaS3, 125);
+  nota(Fa3, 125);
+  nota(FaS3, 250);
+
+  delay(325);
+
+  nota(La2, 250);
+  nota(ReS3, 500);
+  nota(Re3, 325);
+  nota(DoS3, 175);
+  nota(Do3, 125);
+  nota(Si2, 125);
+  nota(Do3, 250);
+
+  delay(350);
 }
 
 void setup() {

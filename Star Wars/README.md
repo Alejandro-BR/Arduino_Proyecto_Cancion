@@ -10,12 +10,13 @@
 
 <hr>
 
-**Cancion: Melodía principal de Star Wars**
+**Cancion: Marcha imperial de Star Wars**
 
-- Autor: John Towner Williamsl
+- Autor: John Williams
 - Versión simplificada
 
-[Video de YouTube](https://www.youtube.com/watch?v=nXnW8QEeGDo&ab_channel=bsocine )
+
+[Video de YouTube](https://www.youtube.com/watch?v=vsMWVW4xtwI&ab_channel=DeutscheGrammophon-DG)
 
 <hr>
 <br>
@@ -24,28 +25,32 @@
 
 <!-- Variables para los tonos -->
 ```c
-const float Do = 523.25;
-const float DoS = 554.37;
-const float Re = 587.33;
-const float ReS = 622.25;
-const float Mi = 659.26;
-const float Fa = 698.46;
-const float FaS = 739.99;
-const float Sol = 783.99;
-const float SolS = 830.61;
-const float La = 880;
-const float LaS = 932.33;
-const float Si = 987.77;
-const float Do2 = 1046.50;
-const float DoS2 = 1108.73;
-const float Re2 = 1174.66;
-const float ReS2 = 1244.51;
-const float Mi2 = 1318.51;
-const float Fa2 = 1396.91;
-const float FaS2 = 1479.98;
-
+const float Do2 = 261.63;   
+const float Re2 = 293.66;  
+const float Mi2 = 329.63;    
+const float Fa2 = 349.23;  
+const float Sol2 = 392.00; 
+const float SolS2 = 415.30; 
+const float La2 = 440.00;    
+const float Si2 = 466.16;    
+const float Do3 = 523.25;   
+const float DoS3 = 554.37;   
+const float Re3 = 587.33;    
+const float ReS3 = 622.25;   
+const float Mi3 = 659.26;   
+const float Fa3 = 698.46;    
+const float FaS3 = 739.99;   
+const float Sol3 = 783.99;  
+const float SolS3 = 830.61;  
+const float La3 = 880.00;   
 
 const int NEGRA = 250;
 const int BLANCA = 500;
 
 ```
+<br>
+<hr>
+<br>
+
+El código de la canción fue sacado de la página web **Panamahitek** y luego lo modifiqué para que estuviera acorde con las funciones que implementé tanto en este como en el proyecto anterior.
+
